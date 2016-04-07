@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/austin/Desktop/Programs/C Programs/Djikstras Assignment/GraphStructure.cpp
+GraphStructure.hpp
+/home/austin/Desktop/Programs/C Programs/Djikstras Assignment/GraphStructure.hpp
+iostream
+-
+
+/home/austin/Desktop/Programs/C Programs/Djikstras Assignment/GraphStructure.hpp
+utility
+-
+list
+-
+vector
+-
+
+/home/austin/Desktop/Programs/C Programs/Djikstras Assignment/main.cpp
+iostream
+-
+GraphStructure.hpp
+/home/austin/Desktop/Programs/C Programs/Djikstras Assignment/GraphStructure.hpp
+utility
+-
+vector
+-
+gtest/gtest.h
+-
+list
+-
+
