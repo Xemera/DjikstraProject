@@ -114,6 +114,30 @@ runTests/fast:
 	$(MAKE) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/build
 .PHONY : runTests/fast
 
+DataStructures.o: DataStructures.cpp.o
+.PHONY : DataStructures.o
+
+# target to build an object file
+DataStructures.cpp.o:
+	$(MAKE) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/DataStructures.cpp.o
+.PHONY : DataStructures.cpp.o
+
+DataStructures.i: DataStructures.cpp.i
+.PHONY : DataStructures.i
+
+# target to preprocess a source file
+DataStructures.cpp.i:
+	$(MAKE) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/DataStructures.cpp.i
+.PHONY : DataStructures.cpp.i
+
+DataStructures.s: DataStructures.cpp.s
+.PHONY : DataStructures.s
+
+# target to generate assembly for a file
+DataStructures.cpp.s:
+	$(MAKE) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/DataStructures.cpp.s
+.PHONY : DataStructures.cpp.s
+
 GraphStructure.o: GraphStructure.cpp.o
 .PHONY : GraphStructure.o
 
@@ -171,6 +195,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... runTests"
+	@echo "... DataStructures.o"
+	@echo "... DataStructures.i"
+	@echo "... DataStructures.s"
 	@echo "... GraphStructure.o"
 	@echo "... GraphStructure.i"
 	@echo "... GraphStructure.s"

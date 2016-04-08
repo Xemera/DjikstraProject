@@ -6,6 +6,22 @@
 
 #IncludeRegexTransform: 
 
+/home/austin/Desktop/Programs/C Programs/Djikstras Assignment/DataStructures.cpp
+DataStructures.hpp
+/home/austin/Desktop/Programs/C Programs/Djikstras Assignment/DataStructures.hpp
+iostream
+-
+vector
+-
+list
+-
+
+/home/austin/Desktop/Programs/C Programs/Djikstras Assignment/DataStructures.hpp
+vector
+-
+list
+-
+
 /home/austin/Desktop/Programs/C Programs/Djikstras Assignment/GraphStructure.cpp
 GraphStructure.hpp
 /home/austin/Desktop/Programs/C Programs/Djikstras Assignment/GraphStructure.hpp
@@ -25,6 +41,8 @@ iostream
 -
 GraphStructure.hpp
 /home/austin/Desktop/Programs/C Programs/Djikstras Assignment/GraphStructure.hpp
+DataStructures.hpp
+/home/austin/Desktop/Programs/C Programs/Djikstras Assignment/DataStructures.hpp
 utility
 -
 vector

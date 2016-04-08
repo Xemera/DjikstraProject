@@ -95,16 +95,41 @@ CMakeFiles/runTests.dir/GraphStructure.cpp.o.provides: CMakeFiles/runTests.dir/G
 
 CMakeFiles/runTests.dir/GraphStructure.cpp.o.provides.build: CMakeFiles/runTests.dir/GraphStructure.cpp.o
 
+CMakeFiles/runTests.dir/DataStructures.cpp.o: CMakeFiles/runTests.dir/flags.make
+CMakeFiles/runTests.dir/DataStructures.cpp.o: DataStructures.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report "/home/austin/Desktop/Programs/C Programs/Djikstras Assignment/CMakeFiles" $(CMAKE_PROGRESS_3)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/runTests.dir/DataStructures.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/runTests.dir/DataStructures.cpp.o -c "/home/austin/Desktop/Programs/C Programs/Djikstras Assignment/DataStructures.cpp"
+
+CMakeFiles/runTests.dir/DataStructures.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runTests.dir/DataStructures.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/austin/Desktop/Programs/C Programs/Djikstras Assignment/DataStructures.cpp" > CMakeFiles/runTests.dir/DataStructures.cpp.i
+
+CMakeFiles/runTests.dir/DataStructures.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runTests.dir/DataStructures.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/austin/Desktop/Programs/C Programs/Djikstras Assignment/DataStructures.cpp" -o CMakeFiles/runTests.dir/DataStructures.cpp.s
+
+CMakeFiles/runTests.dir/DataStructures.cpp.o.requires:
+.PHONY : CMakeFiles/runTests.dir/DataStructures.cpp.o.requires
+
+CMakeFiles/runTests.dir/DataStructures.cpp.o.provides: CMakeFiles/runTests.dir/DataStructures.cpp.o.requires
+	$(MAKE) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/DataStructures.cpp.o.provides.build
+.PHONY : CMakeFiles/runTests.dir/DataStructures.cpp.o.provides
+
+CMakeFiles/runTests.dir/DataStructures.cpp.o.provides.build: CMakeFiles/runTests.dir/DataStructures.cpp.o
+
 # Object files for target runTests
 runTests_OBJECTS = \
 "CMakeFiles/runTests.dir/main.cpp.o" \
-"CMakeFiles/runTests.dir/GraphStructure.cpp.o"
+"CMakeFiles/runTests.dir/GraphStructure.cpp.o" \
+"CMakeFiles/runTests.dir/DataStructures.cpp.o"
 
 # External object files for target runTests
 runTests_EXTERNAL_OBJECTS =
 
 runTests: CMakeFiles/runTests.dir/main.cpp.o
 runTests: CMakeFiles/runTests.dir/GraphStructure.cpp.o
+runTests: CMakeFiles/runTests.dir/DataStructures.cpp.o
 runTests: CMakeFiles/runTests.dir/build.make
 runTests: /usr/lib/libgtest.a
 runTests: CMakeFiles/runTests.dir/link.txt
@@ -117,6 +142,7 @@ CMakeFiles/runTests.dir/build: runTests
 
 CMakeFiles/runTests.dir/requires: CMakeFiles/runTests.dir/main.cpp.o.requires
 CMakeFiles/runTests.dir/requires: CMakeFiles/runTests.dir/GraphStructure.cpp.o.requires
+CMakeFiles/runTests.dir/requires: CMakeFiles/runTests.dir/DataStructures.cpp.o.requires
 .PHONY : CMakeFiles/runTests.dir/requires
 
 CMakeFiles/runTests.dir/clean:
