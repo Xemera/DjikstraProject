@@ -394,6 +394,38 @@ TEST_F(minHeapTest, testDecreaseKeyOne)
 }
 
 
+TEST_F(minHeapTest, testKeyFunctionalityMassive)
+{
+    MinHeapImplementation a;
+    a.insert(1);
+    a.insert(8);
+    a.insert(3);
+    a.insert(2);
+    a.insert(5);
+    a.insert(4);
+    a.insert(2);
+    a.insert(7);
+    a.insert(8);
+    a.insert(2);
+    a.insert(40);
+    a.insert(80);
+    a.insert(-80);
+    a.insert(-280);
+    a.insert(0);
+    a.insert(550);
+    a.insert(9550);
+    a.insert(51);
+    a.insert(251);
+    a.insert(2510);
+    a.insert(2210);
+    a.insert(22210);
+    a.deleteMin();
+    a.deleteMin();
+    a.deleteMin();
+    ASSERT_EQ(a.min(), 1);
+}
+
+
 
 
 
