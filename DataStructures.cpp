@@ -45,6 +45,8 @@ void ListImplementation::deleteMin() //Requires a search, O(n) time
     data.erase(itDelete);
 }
 
+
+
 bool ListImplementation::isEmpty() //just check first value: O(1) time.
 {
      return data.empty();

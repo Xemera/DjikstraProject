@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/austin/Desktop/Programs/C Programs/Djikstras Assignment/DataStructures.cpp
+/home/austin/Desktop/Programs/C/Djikstras/DjikstraProject/DataStructures.cpp
 DataStructures.hpp
-/home/austin/Desktop/Programs/C Programs/Djikstras Assignment/DataStructures.hpp
+/home/austin/Desktop/Programs/C/Djikstras/DjikstraProject/DataStructures.hpp
 iostream
 -
 algorithm
@@ -18,19 +18,19 @@ vector
 list
 -
 
-/home/austin/Desktop/Programs/C Programs/Djikstras Assignment/DataStructures.hpp
+/home/austin/Desktop/Programs/C/Djikstras/DjikstraProject/DataStructures.hpp
 vector
 -
 list
 -
 
-/home/austin/Desktop/Programs/C Programs/Djikstras Assignment/GraphStructure.cpp
+/home/austin/Desktop/Programs/C/Djikstras/DjikstraProject/GraphStructure.cpp
 GraphStructure.hpp
-/home/austin/Desktop/Programs/C Programs/Djikstras Assignment/GraphStructure.hpp
+/home/austin/Desktop/Programs/C/Djikstras/DjikstraProject/GraphStructure.hpp
 iostream
 -
 
-/home/austin/Desktop/Programs/C Programs/Djikstras Assignment/GraphStructure.hpp
+/home/austin/Desktop/Programs/C/Djikstras/DjikstraProject/GraphStructure.hpp
 utility
 -
 list
@@ -38,19 +38,25 @@ list
 vector
 -
 
-/home/austin/Desktop/Programs/C Programs/Djikstras Assignment/main.cpp
+/home/austin/Desktop/Programs/C/Djikstras/DjikstraProject/main.cpp
 iostream
--
-GraphStructure.hpp
-/home/austin/Desktop/Programs/C Programs/Djikstras Assignment/GraphStructure.hpp
-DataStructures.hpp
-/home/austin/Desktop/Programs/C Programs/Djikstras Assignment/DataStructures.hpp
-utility
--
-vector
 -
 gtest/gtest.h
 -
+iostream
+-
+GraphStructure.hpp
+/home/austin/Desktop/Programs/C/Djikstras/DjikstraProject/GraphStructure.hpp
+DataStructures.hpp
+/home/austin/Desktop/Programs/C/Djikstras/DjikstraProject/DataStructures.hpp
+utility
+-
+vector
+-
 list
+-
+utility
+-
+algorithm
 -
 

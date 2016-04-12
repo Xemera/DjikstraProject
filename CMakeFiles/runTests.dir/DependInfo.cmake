@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/austin/Desktop/Programs/C Programs/Djikstras Assignment/DataStructures.cpp" "/home/austin/Desktop/Programs/C Programs/Djikstras Assignment/CMakeFiles/runTests.dir/DataStructures.cpp.o"
-  "/home/austin/Desktop/Programs/C Programs/Djikstras Assignment/GraphStructure.cpp" "/home/austin/Desktop/Programs/C Programs/Djikstras Assignment/CMakeFiles/runTests.dir/GraphStructure.cpp.o"
-  "/home/austin/Desktop/Programs/C Programs/Djikstras Assignment/main.cpp" "/home/austin/Desktop/Programs/C Programs/Djikstras Assignment/CMakeFiles/runTests.dir/main.cpp.o"
+  "/home/austin/Desktop/Programs/C/Djikstras/DjikstraProject/DataStructures.cpp" "/home/austin/Desktop/Programs/C/Djikstras/DjikstraProject/CMakeFiles/runTests.dir/DataStructures.cpp.o"
+  "/home/austin/Desktop/Programs/C/Djikstras/DjikstraProject/GraphStructure.cpp" "/home/austin/Desktop/Programs/C/Djikstras/DjikstraProject/CMakeFiles/runTests.dir/GraphStructure.cpp.o"
+  "/home/austin/Desktop/Programs/C/Djikstras/DjikstraProject/main.cpp" "/home/austin/Desktop/Programs/C/Djikstras/DjikstraProject/CMakeFiles/runTests.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/austin/Desktop/Programs/C Programs/Djikstras Assignment"
+CMAKE_SOURCE_DIR = /home/austin/Desktop/Programs/C/Djikstras/DjikstraProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/austin/Desktop/Programs/C Programs/Djikstras Assignment"
+CMAKE_BINARY_DIR = /home/austin/Desktop/Programs/C/Djikstras/DjikstraProject
 
 # Include any dependencies generated for this target.
 include CMakeFiles/runTests.dir/depend.make
@@ -51,17 +51,17 @@ include CMakeFiles/runTests.dir/flags.make
 
 CMakeFiles/runTests.dir/main.cpp.o: CMakeFiles/runTests.dir/flags.make
 CMakeFiles/runTests.dir/main.cpp.o: main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/austin/Desktop/Programs/C Programs/Djikstras Assignment/CMakeFiles" $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/austin/Desktop/Programs/C/Djikstras/DjikstraProject/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/runTests.dir/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/runTests.dir/main.cpp.o -c "/home/austin/Desktop/Programs/C Programs/Djikstras Assignment/main.cpp"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/runTests.dir/main.cpp.o -c /home/austin/Desktop/Programs/C/Djikstras/DjikstraProject/main.cpp
 
 CMakeFiles/runTests.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runTests.dir/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/austin/Desktop/Programs/C Programs/Djikstras Assignment/main.cpp" > CMakeFiles/runTests.dir/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/austin/Desktop/Programs/C/Djikstras/DjikstraProject/main.cpp > CMakeFiles/runTests.dir/main.cpp.i
 
 CMakeFiles/runTests.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runTests.dir/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/austin/Desktop/Programs/C Programs/Djikstras Assignment/main.cpp" -o CMakeFiles/runTests.dir/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/austin/Desktop/Programs/C/Djikstras/DjikstraProject/main.cpp -o CMakeFiles/runTests.dir/main.cpp.s
 
 CMakeFiles/runTests.dir/main.cpp.o.requires:
 .PHONY : CMakeFiles/runTests.dir/main.cpp.o.requires
@@ -74,17 +74,17 @@ CMakeFiles/runTests.dir/main.cpp.o.provides.build: CMakeFiles/runTests.dir/main.
 
 CMakeFiles/runTests.dir/GraphStructure.cpp.o: CMakeFiles/runTests.dir/flags.make
 CMakeFiles/runTests.dir/GraphStructure.cpp.o: GraphStructure.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/austin/Desktop/Programs/C Programs/Djikstras Assignment/CMakeFiles" $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/austin/Desktop/Programs/C/Djikstras/DjikstraProject/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/runTests.dir/GraphStructure.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/runTests.dir/GraphStructure.cpp.o -c "/home/austin/Desktop/Programs/C Programs/Djikstras Assignment/GraphStructure.cpp"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/runTests.dir/GraphStructure.cpp.o -c /home/austin/Desktop/Programs/C/Djikstras/DjikstraProject/GraphStructure.cpp
 
 CMakeFiles/runTests.dir/GraphStructure.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runTests.dir/GraphStructure.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/austin/Desktop/Programs/C Programs/Djikstras Assignment/GraphStructure.cpp" > CMakeFiles/runTests.dir/GraphStructure.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/austin/Desktop/Programs/C/Djikstras/DjikstraProject/GraphStructure.cpp > CMakeFiles/runTests.dir/GraphStructure.cpp.i
 
 CMakeFiles/runTests.dir/GraphStructure.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runTests.dir/GraphStructure.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/austin/Desktop/Programs/C Programs/Djikstras Assignment/GraphStructure.cpp" -o CMakeFiles/runTests.dir/GraphStructure.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/austin/Desktop/Programs/C/Djikstras/DjikstraProject/GraphStructure.cpp -o CMakeFiles/runTests.dir/GraphStructure.cpp.s
 
 CMakeFiles/runTests.dir/GraphStructure.cpp.o.requires:
 .PHONY : CMakeFiles/runTests.dir/GraphStructure.cpp.o.requires
@@ -97,17 +97,17 @@ CMakeFiles/runTests.dir/GraphStructure.cpp.o.provides.build: CMakeFiles/runTests
 
 CMakeFiles/runTests.dir/DataStructures.cpp.o: CMakeFiles/runTests.dir/flags.make
 CMakeFiles/runTests.dir/DataStructures.cpp.o: DataStructures.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/austin/Desktop/Programs/C Programs/Djikstras Assignment/CMakeFiles" $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/austin/Desktop/Programs/C/Djikstras/DjikstraProject/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/runTests.dir/DataStructures.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/runTests.dir/DataStructures.cpp.o -c "/home/austin/Desktop/Programs/C Programs/Djikstras Assignment/DataStructures.cpp"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/runTests.dir/DataStructures.cpp.o -c /home/austin/Desktop/Programs/C/Djikstras/DjikstraProject/DataStructures.cpp
 
 CMakeFiles/runTests.dir/DataStructures.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runTests.dir/DataStructures.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/austin/Desktop/Programs/C Programs/Djikstras Assignment/DataStructures.cpp" > CMakeFiles/runTests.dir/DataStructures.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/austin/Desktop/Programs/C/Djikstras/DjikstraProject/DataStructures.cpp > CMakeFiles/runTests.dir/DataStructures.cpp.i
 
 CMakeFiles/runTests.dir/DataStructures.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runTests.dir/DataStructures.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/austin/Desktop/Programs/C Programs/Djikstras Assignment/DataStructures.cpp" -o CMakeFiles/runTests.dir/DataStructures.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/austin/Desktop/Programs/C/Djikstras/DjikstraProject/DataStructures.cpp -o CMakeFiles/runTests.dir/DataStructures.cpp.s
 
 CMakeFiles/runTests.dir/DataStructures.cpp.o.requires:
 .PHONY : CMakeFiles/runTests.dir/DataStructures.cpp.o.requires
@@ -150,6 +150,6 @@ CMakeFiles/runTests.dir/clean:
 .PHONY : CMakeFiles/runTests.dir/clean
 
 CMakeFiles/runTests.dir/depend:
-	cd "/home/austin/Desktop/Programs/C Programs/Djikstras Assignment" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/austin/Desktop/Programs/C Programs/Djikstras Assignment" "/home/austin/Desktop/Programs/C Programs/Djikstras Assignment" "/home/austin/Desktop/Programs/C Programs/Djikstras Assignment" "/home/austin/Desktop/Programs/C Programs/Djikstras Assignment" "/home/austin/Desktop/Programs/C Programs/Djikstras Assignment/CMakeFiles/runTests.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /home/austin/Desktop/Programs/C/Djikstras/DjikstraProject && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/austin/Desktop/Programs/C/Djikstras/DjikstraProject /home/austin/Desktop/Programs/C/Djikstras/DjikstraProject /home/austin/Desktop/Programs/C/Djikstras/DjikstraProject /home/austin/Desktop/Programs/C/Djikstras/DjikstraProject /home/austin/Desktop/Programs/C/Djikstras/DjikstraProject/CMakeFiles/runTests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/runTests.dir/depend
 

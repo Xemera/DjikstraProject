@@ -1,10 +1,21 @@
 #include "GraphStructure.hpp"
 #include <iostream>
 
-node::node(int identifierin, std::list<std::pair<node*, int> > connectionsin)
+node::node(int identifierin, std::list<std::pair<node*, int> > connectionsin, bool isHead)
 {
     identifier = identifierin;
     connections = connectionsin;
+
+    if (isHead == true)
+    {
+        currentMarked = 10000;
+    }
+    else
+    {
+        currentMarked = 0;
+    }
+
+    checked = false;
 }
 
 void node::pushConnection(node* input, int weight)
@@ -44,6 +55,38 @@ int node::getIdentifier()
      return identifier;
 }
 
+int node::getCurrentMarked()
+{
+     return currentMarked;
+}
+
+void node::addMarkedValue(int delta)
+{
+    currentMarked = currentMarked + delta;
+}
+
+void node::changeMarkedValue(int value)
+{
+    currentMarked =  value;
+}
+
+bool node::operator==(node arg)
+{
+    //really simple operation overload.
+    return this->identifier == arg.identifier;
+}
+
+
+void node::toggleChecked()
+{
+    checked = true;
+}
+
+bool node::isChecked()
+{
+    return checked;
+}
+
 void graph::pushNode(node *input)
 {
     nodes.push_back(input);
@@ -53,3 +96,4 @@ std::vector<node*> graph::getNodeVector()
 {
      return nodes;
 }
+
