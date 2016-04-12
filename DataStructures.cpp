@@ -63,17 +63,6 @@ void MinHeapImplementation::walkUp(int index)
     int current = index;
     int parent = index / 2;
 
-    if (false)
-    {
-       std::cout << "************** Debug Menu Begin WalkUP*************" << std::endl;
-        std::cout << "Heap composure:" << std::endl;
-        for (int i = 0; i < heap.size(); i++)
-        {
-            std::cout << "at " << i << " ";
-            std::cout << heap[i] <<std::endl;;
-        }
-    }
-
     while (parent > 0)
     {
         if (heap[current] <= heap[parent])
@@ -112,16 +101,6 @@ void MinHeapImplementation::walkUp(int index)
          heap[2] = temp;
     }
     }
-    if (false)
-    {
-    std::cout << "************** Debug Menu End WalkUP*************" << std::endl;
-        std::cout << "Heap composure:" << std::endl;
-        for (int i = 0; i < heap.size(); i++)
-        {
-            std::cout << "at " << i << " ";
-            std::cout << heap[i] <<std::endl;;
-        }
-    }
 
 
 
@@ -133,7 +112,6 @@ void MinHeapImplementation::walkDown( int input )
 int child;
 int tmp = input;
 
-        std::cout << "Heap Size" << heap.size() << std::endl;
     if (heap.size() > 1)
     {
         if (heap[0] > heap[1])
@@ -160,16 +138,12 @@ int tmp = input;
 
 
     if( child < heap.size() - 1 && heap[ child + 1 ] < heap[ child ] )
-        std::cout << input << std::endl;
-        std::cout << input * 2 << std::endl;
-        std::cout << tmp << std::endl;
         ++child;
 
 
         if( heap[ child ] < heap[tmp] )
         {
            std::swap(heap[input], heap[child]);
-           std::cout << "SWAP";
            tmp = child;
 
         }
