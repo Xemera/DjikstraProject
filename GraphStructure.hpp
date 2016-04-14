@@ -14,6 +14,7 @@ private:
 
 public:
     node(int identifierin, std::list<std::pair<node*, int> > connectionsin, bool isHead);
+    void popMinPair();
     void pushConnection(node* input, int weight);
     std::list<std::pair<node*, int> > getConnections();
     std::pair<node*, int> getMinPair();

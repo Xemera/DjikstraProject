@@ -45,10 +45,30 @@ std::pair<node*, int> node::getMinPair()
         iteratorLoop++;
     }
 
-    std::cout << currentMinPointer->second;
     return *currentMinPointer;
-
 }
+
+void node::popMinPair()
+{
+    auto currentMinPointer = connections.begin();
+    auto iteratorLoop = connections.begin();
+
+    int currentMin = currentMinPointer->second;
+
+    for (auto i : connections)
+    {
+        if (i.second < currentMin)
+        {
+            currentMin = iteratorLoop->second;
+            currentMinPointer = iteratorLoop;
+        }
+        iteratorLoop++;
+    }
+
+    std::cout << "      Removed " << currentMinPointer->first->identifier << std::endl;
+    connections.remove(*currentMinPointer);
+}
+
 
 int node::getIdentifier()
 {
